@@ -5,7 +5,9 @@
 layout: default
 ---
 
-# Features
+- Developed by <a href="https://picoluetjens.github.io">Pico Lütjens</a>
+
+# General
 Clipcatch allows the user to download multiple videos at the same time with different resolutions. In the GUI version a link can be pasted by selecting paste from the topbar.
 It is also possible to save a download link list for downloading at a later point or to import a download link list and download from there if using the GUI version.
 
@@ -21,6 +23,10 @@ Options
 -lo --location  the location to download to(folder)
 
 -r --resolution the resolution of the video
+```
+Example
+```console
+clipcatch -l https://www.youtube.com/watch?v=dQw4w9WgXcQ -lo C:\videos\ -r 1920x1080
 ```
 
 Via Command Line only single video downloads are possible!
